@@ -1,0 +1,152 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#title {
+    background-color:white ;
+    font-family: 'Roboto';
+}
+
+.container-fluid {
+    padding: 3% 15%
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: black;
+}
+h2{ 
+    color:black;
+    font-family: 'Roboto';
+    font-size: 1.5;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 { 
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1;
+    text-shadow: #8f8f8f;
+}
+h5 { 
+    font-size: medium;
+    color: white;
+    text-align: center;
+}
+p{ 
+    color: #8f8f8f;
+    font-family: 'Roboto';
+    font-weight: bold;
+
+}
+em{ 
+   font-weight: bold; 
+}
+
+/* Navigation Bar*/
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family:'Roboto';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item {
+    padding: 0 18px;
+    color: black;
+}
+
+.nav-link { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem; 
+}
+
+a { 
+    color: gray;
+}
+
+/* Title Image */
+
+.title-image { 
+    width: 70%;
+    position: absolute;
+    z-index: 0;
+}
+
+
+/* Features Section */
+
+#features { 
+    padding: 7% 15%;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.feature-box { 
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #8f8f8f;
+}
+
+
+
+/* Call to Action */ 
+#cta{ 
+    background-color: gray;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading { 
+    font-family: 'Roboto';
+    font-size:2rem ;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/* footer */ 
+
+#footer{ 
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{ 
+    margin: 20px 10px;
+}
+
+
+/*media query section*/ 
+
+@media (max-width:1028px) { 
+
+    #title {
+        text-align: center;
+    }
+    .title-image{ 
+        position: static;
+        transform: rotate(0)
+    }
+}
+
+ 
+
